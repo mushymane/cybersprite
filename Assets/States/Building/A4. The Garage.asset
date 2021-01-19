@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac74865efbbda94e9329557fca053af, type: 3}
+  m_Name: A4. The Garage
+  m_EditorClassIdentifier: 
+  storyText: 'Interestingly there are rust buckets and luxury cars here. Mostly rust
+    buckets though. My systems aren''t completely dead so I can try to quickly hack
+    a car and drive off into the sunset. Or I can stay on foot and head to the exit.
+
+    
+
+    What''s
+    my best option?
+
+    
+
+    1. Drive off in a new car.
+
+    
+
+    2. Drive
+    off in a tin can.
+
+    
+
+    3. Stay quiet and head to the exit.'
+  nextStates:
+  - {fileID: 11400000, guid: 186ba001f33fc8844a6a0b306744c243, type: 2}
+  - {fileID: 11400000, guid: 186ba001f33fc8844a6a0b306744c243, type: 2}
+  - {fileID: 11400000, guid: 80e43fae05dc3af409677b2c45588def, type: 2}

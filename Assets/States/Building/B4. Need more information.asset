@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac74865efbbda94e9329557fca053af, type: 3}
+  m_Name: B4. Need more information
+  m_EditorClassIdentifier: 
+  storyText: 'After taking them out, I should probably have a quick look on their
+    laptop. Looks like they do this for business. They create and test their illegal
+    robotics on kidnapped victims. Some make it, and some don''t. Should I see if
+    there are survivors? Or should I just get the hell out of here?
+
+    
+
+    1.
+    See if you can find more victims.
+
+    
+
+    2. See what''s at the end of the
+    hallway...'
+  nextStates:
+  - {fileID: 11400000, guid: 4d22a9145f95ed143bd965c54d03010f, type: 2}
+  - {fileID: 11400000, guid: c8107bce2051608438c6f6f183477dee, type: 2}

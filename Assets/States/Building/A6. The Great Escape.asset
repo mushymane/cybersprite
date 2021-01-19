@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac74865efbbda94e9329557fca053af, type: 3}
+  m_Name: A6. The Great Escape
+  m_EditorClassIdentifier: 
+  storyText: "It's a miracle I'm still able to hack this car. I hear people coming
+    from behind and also gangsters coming out and shooting at me from the front.
+    \r\n\r\n1. Run those boys over\r\n\r\n2. Lase the thugs from behind first then
+    those in the front."
+  nextStates:
+  - {fileID: 11400000, guid: 528876d635cbb774890941726ef8f733, type: 2}
+  - {fileID: 11400000, guid: 22b1b66dbdc343e478b4384236e2f0dd, type: 2}

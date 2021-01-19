@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac74865efbbda94e9329557fca053af, type: 3}
+  m_Name: B6. I knew I should have taken him out...
+  m_EditorClassIdentifier: 
+  storyText: 'I hear somebody running. It must be the fake doc realizing I escaped.
+    I can wait somewhere and then take him out, or I can find him right now so that
+    others won''t be alerted.
+
+    
+
+    What''s the best thing to do?
+
+    
+
+    1.
+    Wait and see if he comes to me.
+
+    
+
+    2. Meet halfway and give him the
+    beam.'
+  nextStates:
+  - {fileID: 11400000, guid: 8c29ca8f4b5148c43b2230d3d9b312da, type: 2}
+  - {fileID: 11400000, guid: 8c29ca8f4b5148c43b2230d3d9b312da, type: 2}

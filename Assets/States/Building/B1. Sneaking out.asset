@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac74865efbbda94e9329557fca053af, type: 3}
+  m_Name: B1. Sneaking out
+  m_EditorClassIdentifier: 
+  storyText: 'I can see an open door to the right. I quietly cut myself loose. I
+    try to do a quick scan but my systems aren''t fully functional. They must have
+    been preparing to modify or experiment with me. What''s beyond this door?
+
+    
+
+    1.
+    Go around the corner into the hallway.
+
+    
+
+    2. Quickly search the room
+    across.'
+  nextStates:
+  - {fileID: 11400000, guid: d2bf39ae5268385419155750cae383cb, type: 2}
+  - {fileID: 11400000, guid: 31b1bac93abd13940a253c506de53dd8, type: 2}

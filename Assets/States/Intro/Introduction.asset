@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac74865efbbda94e9329557fca053af, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to this game.
+
+
+    Find your way out of the building, and
+    of course, try to stay alive!
+
+
+    At each stage you''ll be asked to press 1,
+    2, or 3 on your keyboard depending on which action you want to take.
+
+
+    At
+    any point in time, press "q" to quit.
+
+
+    Press "1" to continue.'
+  nextStates:
+  - {fileID: 11400000, guid: e298091bfec088f43ac0e365f69d27b0, type: 2}
